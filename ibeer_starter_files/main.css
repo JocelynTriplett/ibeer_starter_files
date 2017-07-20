@@ -16,6 +16,10 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -28,7 +32,14 @@ img{
     display: block;
 }
 .wrapper{
+    display: flex;
     width: 1000px;
+    flex-direction: row;
+    order: -1;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 
     /*
         TODO:
@@ -38,8 +49,14 @@ img{
     */
 }
 #site-header{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+
     /*
-        TODO
+        Done-TODO
         - Flexbox property here
     */
 }
@@ -49,8 +66,9 @@ img{
     font-size: 4em;
     background-image: url(img/header-img.jpg);
 
+
     /*
-        TODO:
+        DONE - TODO:
         - Add a background image "header-img.jpg"
         make sure that the path to the image is correct
     */
@@ -71,18 +89,19 @@ img{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: Dancing Script
     /*
-        TODO:
+        DONE - TODO:
         - Use the script font: 'Dancing Script' fot this text
     */
 }
 #main-navigation{
     background: #444;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     /*
-        TODO:
+        DONE - TODO:
         - Use Flexbox to arrange the navigation links
     */
 }
@@ -100,6 +119,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
+    width: 400 px;
 
     /*
         TODO:
@@ -111,6 +131,15 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 55%;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -121,6 +150,15 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+
+
+
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -143,6 +181,7 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
+
 }
 article h2{
     line-height: 1em;
@@ -177,6 +216,8 @@ article footer p{
 #site-footer{
 
     background: #333;
+    display: flex;
+    align-self: stretch;
     /*
         TODO:
         - Style the site footer
