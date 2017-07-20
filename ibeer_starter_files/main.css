@@ -112,6 +112,7 @@ img{
     text-transform: uppercase;
     padding: 10px 20px;
 
+
     /*
         TODO:
         - Flexbox - Create general spacing between nav links
@@ -119,7 +120,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
-    width: 400 px;
+    width: 500 px;
 
     /*
         TODO:
@@ -141,7 +142,7 @@ main{
 
 
     /*
-        TODO:
+        Done - TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
@@ -153,6 +154,7 @@ aside{
     width: 25%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     position: relative;
     bottom: 50px;
 
@@ -160,7 +162,7 @@ aside{
 
 
     /*
-        TODO:
+        Done - TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
@@ -200,13 +202,24 @@ article time{
     color: #666;
 }
 article img{
+
+  float: right;
+  width: 50%;
     /*
-        TODO:
+        Done - TODO:
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
 }
 article footer p{
+
+  line-height: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 20px 0 0px 0;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
     /*
         TODO:
         - Style the article footer
@@ -218,6 +231,8 @@ article footer p{
     background: #333;
     display: flex;
     align-self: stretch;
+    color: white;
+    text-align: center;
     /*
         TODO:
         - Style the site footer
