@@ -114,7 +114,7 @@ img{
 
 
     /*
-        TODO:
+        ? TODO:
         - Flexbox - Create general spacing between nav links
     */
 }
@@ -123,7 +123,7 @@ img{
     width: 500 px;
 
     /*
-        TODO:
+        ? TODO:
         - Flexbox - The logo needs to take up more space
         that the other links
     */
@@ -236,7 +236,7 @@ article footer p{
     color: white;
     text-align: center;
     /*
-        TODO:
+        Done - TODO:
         - Style the site footer
     */
 }
