@@ -221,7 +221,7 @@ article footer p{
   border-top: 1px solid #ccc;
   text-transform: uppercase;
     /*
-        TODO:
+        Done - TODO:
         - Style the article footer
         HINT: Look to the article header;
     */
@@ -229,7 +229,6 @@ article footer p{
 #site-footer{
 
     background: #333;
-    display: flex;
     align-self: stretch;
     color: white;
     text-align: center;
