@@ -176,6 +176,7 @@ aside h3{
 aside img{
     border-radius: 50%;
     margin-bottom: 30px;
+    height: auto;
     border: 2px solid white;
 }
 article{
@@ -205,6 +206,7 @@ article img{
 
   float: right;
   width: 50%;
+  margin-left: 20px;
     /*
         Done - TODO:
         - Float article images to the right
